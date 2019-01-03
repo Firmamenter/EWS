@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  EWSDemo
+
+  Created by Da Chen on 12/23/18.
+  Copyright © 2018 Da Chen. All rights reserved.
+*/
+"Language Setting" = "言語設定";
+"Oops" = "おっとっと";
+"You need choose one language at least." = "少なくとも一つの言語を選ぶ必要があります";
+"English" = "英語";
+"Chinese" = "中国語";
+"Japanese" = "日本語";
+"Success" = "成功";
+"Restart app to see changes." = "変更を確認するにはアプリを再起動してください";

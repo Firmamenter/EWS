@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mqC-w0-dqU">
+                                <rect key="frame" x="16" y="0.0" width="343" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Early Warning System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzb-kA-7MT">
+                                <rect key="frame" x="25" y="220" width="325" height="42"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lgA-1b-M1d">
+                                <rect key="frame" x="72" y="382" width="231" height="48"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="lwj-da-lkT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lgA-1b-M1d" secondAttribute="trailing" constant="72" id="4oY-Sg-oz3"/>
+                            <constraint firstItem="lgA-1b-M1d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="6nO-YI-Gja"/>
+                            <constraint firstItem="Dzb-kA-7MT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Eu-65-L6E"/>
+                            <constraint firstItem="lgA-1b-M1d" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WvL-TF-tDw"/>
+                            <constraint firstItem="mqC-w0-dqU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="l0S-eT-bPE"/>
+                            <constraint firstItem="mqC-w0-dqU" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="lr5-Qx-72z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mqC-w0-dqU" secondAttribute="trailing" id="naY-U0-NfX"/>
+                            <constraint firstItem="lgA-1b-M1d" firstAttribute="top" secondItem="Dzb-kA-7MT" secondAttribute="bottom" constant="120" id="xuz-9B-12D"/>
+                            <constraint firstItem="mqC-w0-dqU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zkd-Lc-Iya"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashBackground" width="640" height="360"/>
+    </resources>
+</document>
